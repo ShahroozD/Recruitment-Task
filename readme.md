@@ -5,11 +5,11 @@
 ### تمرین استخدامی
 به تمرین استخدامی ما خوش آمدید. در این تمرین، ما یک کتابخانه ساده ایجاد کرده‌ایم که از React الهام گرفته شده است. هدف شما این است که قالب کد ارائه‌شده را تحلیل کرده و تابع `useEffect` را تکمیل کنید. این تابع باید اطمینان حاصل کند که تابع داخلی آن بر اساس وابستگی‌های مشخص شده در زمان اجرای برنامه به درستی اجرا می‌شود.
 
-شما می‌توانید قالب کد را در فایل [task.js](task.js) پیدا کنید.
+شما می‌توانید کدها را در فایل [task.tsx](task.tsx) پیدا کنید.
 
 ### دستورالعمل‌ها
-1. **تحلیل** قالب کد ارائه‌شده.
-2. **تکمیل** تابع `useEffect` در `task.js`.
+1. **تحلیل** فایل کد ارائه‌شده.
+2. **تکمیل** تابع `useEffect` در `task.tsx`.
 3. اطمینان حاصل کنید که تابع داخلی `useEffect` بر اساس وابستگی‌های مشخص شده به درستی اجرا می‌شود.
 
 ### راه‌اندازی و نصب
@@ -50,11 +50,11 @@
 ### Recruitment Task
 Welcome to our recruitment task. In this exercise, we have created a simplified library inspired by React. Your objective is to analyze the provided code template and complete the `useEffect` function. This function should ensure that its inner function executes correctly based on its dependencies when the program runs.
 
-You can find the code template in the [task.js](task.js) file.
+You can find the code template in the [task.tsx](task.tsx) file.
 
 ### Instructions
 1. **Analyze** the provided code template.
-2. **Complete** the `useEffect` function in `task.js`.
+2. **Complete** the `useEffect` function in `task.tsx`.
 3. Ensure that the inner function of `useEffect` executes according to the specified dependencies.
 
 ### Setup and Installation
