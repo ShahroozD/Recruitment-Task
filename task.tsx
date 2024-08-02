@@ -3,7 +3,6 @@
 const appState = [];
 let appStateCursor = 0;
 
-
 const React = {
     root : null,
     
@@ -52,20 +51,17 @@ const reRender = () => {
     React.root.innerHTML = '';
     appStateCursor = 0;
     render(<App />, React.root);
-
-
 };
   
-
 const useState = (initialState) => {
-    // بر اساس اشاره‌گر، متغییر در استک قرار میگیرد
+    // بر اساس اشاره‌گر، متغیر در استک قرار میگیرد
     const stateCursor = appStateCursor;
     appState[stateCursor] = appState[stateCursor] || initialState;
 
     const setState = (newState) => {
 
         appState[stateCursor] = newState;
-        // با تغییر متغییر صفحه دوباره رسم میشود
+        // با تغییر متغیر صفحه دوباره رسم میشود
         reRender();
     };
 
@@ -80,7 +76,6 @@ const useEffect = (callback, conditions = []) => {
 };
 
 
-
 // ---- Application --- //
 const App = () => {
     const [name, setName] = useState('Developer');
@@ -88,7 +83,7 @@ const App = () => {
     const [final, setFinal] = useState("Do somthing here!");
 
     useEffect(() => {
-        setFinal(`useEffect response!`);
+        setFinal(`useEffect response! count: ${count}`);
     }, [count]);
 
 
